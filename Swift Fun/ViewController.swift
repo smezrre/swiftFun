@@ -19,7 +19,7 @@ class ViewController: UIViewController {
        
         buttonCount = buttonCount + 1
         
-        print(buttonCount)
+    
         
         if buttonCount == 10 {
         view.backgroundColor = UIColor.cyan
@@ -36,11 +36,7 @@ class ViewController: UIViewController {
             
             myLabel.text = "no, really, stop."
         }
-        if buttonCount > 16 {
-            view.backgroundColor = UIColor.green
-            
-            myLabel.text = "you're really pissing me off."
-        }
+     
     }
     override func viewDidLoad() {
         super.viewDidLoad()
